@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: url(./assets/images/christmas-4595510_1280.jpg) no-repeat top center;
+  background-size: cover;
+}
+.container-fluid{
+max-width: 85%;
+background-color: rgba(141, 98, 181, 0.476);
+padding: 10px;
+
+}

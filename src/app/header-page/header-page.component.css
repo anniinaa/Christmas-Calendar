@@ -1,0 +1,18 @@
+section{
+    padding-bottom: 20px;
+}
+section *{
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: rgba(44, 42, 42, 0.762);
+
+
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: rgba(134, 149, 226, 0.701);
+    padding: 20px;
+}

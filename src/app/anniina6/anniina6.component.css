@@ -1,0 +1,9 @@
+.container{
+    height: 500px;
+    font-family: 'Mountains of Christmas', cursive;
+    color: rgba(255, 255, 255, 0.816);
+    text-align: center;
+}
+p{
+    font-size: 35px;
+}

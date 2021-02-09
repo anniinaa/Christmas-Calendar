@@ -1,0 +1,15 @@
+.container-fluid {
+  background-image: url(/assets/images/tetris.jpg);
+  border: solid 5px black;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .container-fluid {
+    max-width: 100%;
+  }
+}

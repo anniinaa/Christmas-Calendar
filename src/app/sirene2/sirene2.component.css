@@ -1,0 +1,51 @@
+body {
+  background-image: url(/assets/images/song.jpg);
+  font-family: "Mountains of Christmas";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.container-fluid {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.audio {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    padding: 10px;
+    font-size: 1.8rem;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}

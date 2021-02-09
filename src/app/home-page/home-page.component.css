@@ -1,0 +1,30 @@
+    .container{
+        width: 700px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 2px;
+    }
+    .container > *{
+
+        color: black;
+        font-family: 'Shadows Into Light Two', cursive;
+        font-size: 20px;
+    }
+    h1{
+        padding: 25px;
+        font-size: 45px;
+        font-family: 'Clicker Script', cursive;  color: rgba(255, 255, 255, 0.925);
+        text-align: center;
+      
+      }
+
+a{
+    text-align: center;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(71, 71, 165, 0.537);
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 25px 0;
+}

@@ -1,0 +1,13 @@
+.container{
+  height: 500px;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: smaller;
+  color: darkred;
+  text-align: center;
+}
+p{
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+

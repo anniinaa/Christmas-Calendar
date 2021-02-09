@@ -1,0 +1,47 @@
+body {
+  background-image: url(/assets/images/tausta.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h5,
+p {
+  text-align: center;
+  font-family: "Mountains of Christmas", cursive;
+  font-family: "Sansita Swashed", cursive;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.container-fluid {
+  width: 65%;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}
+
+.center {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.form {
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-family: "Mountains of Christmas", cursive;
+  font-family: "Sansita Swashed", cursive;
+}

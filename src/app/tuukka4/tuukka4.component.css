@@ -1,0 +1,18 @@
+.container{
+  height: 500px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.816);
+  text-align: center;
+}
+p{
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color:rgba(255, 255, 255, 0.816);
+  text-decoration: saddlebrown;
+
+}

@@ -1,0 +1,36 @@
+<link
+href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap"
+rel="stylesheet"
+/>
+<div class="container">
+  <div class="grid">
+    <canvas #board class="game-board"></canvas>
+    <div class="tetris-scores">
+      <div>
+        <h1>TETRIS</h1>
+        <p>Score: {{ points }}</p>
+        <p>Lines: {{ lines }}</p>
+        <p>Level: {{ level }}</p>
+        <p>High Score:</p>
+        <p>{{ highScore }}</p>
+        <p>Next Block:</p>
+        <canvas #next class="next"></canvas>
+      </div>
+      <div class="button-container">
+        <button (click)="play()" class="btn btn-success" *ngIf="!gameStarted">
+          Play
+        </button>
+        <button (click)="gameOver()" class="btn btn-danger" *ngIf="gameStarted">
+          Reset
+        </button>
+        <button
+          (click)="pause()"
+          class="btn btn-light"
+          [class.button-disabled]="!gameStarted"
+        >
+          Pause
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

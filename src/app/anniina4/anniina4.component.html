@@ -1,0 +1,22 @@
+<app-header-page></app-header-page>
+<div class="container">
+  <h4>Select a christmas poem</h4>
+  <div class="wrapper">
+    <ul>
+      <li
+        *ngFor="let poem of runolista"
+        (click)="onSelect(poem)"
+        [class.selected]="poem === selectPoem">
+        <h5>{{ poem.name }}</h5>
+      </li>
+    </ul>
+    <div *ngIf="selectPoem">
+      <div class="block">
+        <h2>{{ selectPoem.name }}</h2>
+        <div *ngFor="let line of formattedPoemText" class="poemline">
+          <div >{{ line }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

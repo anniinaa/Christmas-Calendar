@@ -1,0 +1,9 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "default": "joulukalenteri-app"
+=======
+    "default": "joulukalenteri-2dcc1"
+>>>>>>> origin/anniina
+  }
+}

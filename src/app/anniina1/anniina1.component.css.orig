@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  background-color: rgba(107, 107, 177, 0.51);
+  border-radius: 50px;
+  margin: 10px auto;
+}
+=======
+.container{
+    height: 500px;
+    font-family: 'Mountains of Christmas', cursive;
+    color: rgba(255, 255, 255, 0.816);
+    text-align: center;
+}
+p{
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+/* .layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  } */
+>>>>>>> origin/anniina
